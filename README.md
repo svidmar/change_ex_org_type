@@ -2,8 +2,9 @@
 
 This Python script can be used to bulk change the "type" of external organisation in Elsevier's Pure system based on a list of UUID's in a csv file. Handy for cleaning data, migrating to different classifications and so on.
 
-## Prerequisite
+## Prerequisites
 - An API Key for Pure with write permission to the /external-organizations/ endpoint (Remember to keep your key secure)
+- Access to Pure's classifications and reporting module
 - Libraries: requests, csv, time
 
 ### Deployment
